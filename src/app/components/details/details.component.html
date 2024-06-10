@@ -1,0 +1,68 @@
+<main class="details component">
+
+    <div class="humidity-box flex-column center">
+
+        <span>
+            Humidade:
+        </span>
+        <div class="humi-data flex-row center">
+            <i class="fa-solid fa-drop"></i>
+            <h2 class="humidity-perc">
+                {{ details.main.humidity }} %
+            </h2>
+        </div>
+
+    </div>
+    <div class="visibility-box flex-column center">
+
+        <span>
+            visibilidade:
+        </span>
+        <div class="visi-data flex-row center">
+            <i class="fa-solid fa-drop"></i>
+            <h2 class="visibility-perc">
+                {{ details.visibility }} %
+            </h2>
+        </div>
+
+    </div>
+    <div class="cloud-box flex-column center">
+
+        <span>
+            Nebulosidade:
+        </span>
+        <div class="cloud-data flex-row center">
+            <i class="fa-solid fa-cloud"></i>
+            <h2 class="cloud-perc">
+                {{ details.clouds.all }} %
+            </h2>
+        </div>
+
+
+    </div>
+    <div class="flex-row center">
+
+        <div class="sunrise-box flex-column center">
+
+            <span>
+                Nascer do sol:
+            </span>
+            <h2 class="sunrise">
+                {{ details.sys.sunrise }}
+            </h2>
+
+        </div>
+        <div class="sunset-box flex-column center">
+
+            <span>
+                Pôr do sol:
+            </span>
+            <h2 class="sunset">
+                {{ details.sys.sunset }}
+            </h2>
+
+        </div>
+
+    </div>
+
+</main>

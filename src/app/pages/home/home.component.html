@@ -1,0 +1,40 @@
+<main class="home flex-row">
+
+    <div class="logo-container flex-row center">
+
+        <a href="#">
+            <i class="fa-solid fa-cloud logo"></i>
+        </a>
+        <h1 class="site-name">
+            Weather NOW
+        </h1>
+
+    </div>
+    <nav class="nav-container ">
+
+        <div class="navbar flex-row center">
+
+            <input (keydown.enter)="getCitySearched()" class="search-input" type="text"
+                placeholder="Pesquise sua cidade..." name="text" id="text">
+            <button (click)="getCitySearched()" (keydown.enter)="getCitySearched()" class="search-btn">
+                <i class="fa-solid fa-search"></i>
+            </button>
+        </div>
+
+    </nav>
+    <div class="lang-container flex-row center">
+
+        <div class="languange-choose">
+            <span class="lang">
+                LANG:
+            </span>
+            <span class="lang-brand">br</span>
+
+        </div>
+        <button class="lang-change">
+            <i class="fa-solid fa-caret-down"></i>
+        </button>
+
+    </div>
+
+</main>

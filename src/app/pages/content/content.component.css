@@ -1,0 +1,20 @@
+.content {
+    margin: 2rem;
+    border: 2px solid red;
+
+}
+
+.city-temp {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.details-wind-pressure {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+}

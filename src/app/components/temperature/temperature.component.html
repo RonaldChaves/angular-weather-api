@@ -1,0 +1,55 @@
+<main class="temperature component flex-row center">
+
+    <div class="temp-current flex-column center">
+
+        <div class="temp">
+            <h1 class="temp-now">
+                {{ temp.main.temp }} °C
+            </h1>
+        </div>
+        <div class="description">
+
+            <i class="fa-solid fa-cloud"></i>
+            <h2 class="weather-desc">
+                {{ temp.weather.description }}
+            </h2>
+
+        </div>
+
+    </div>
+    <div class="flex-column center">
+
+        <div class="feels-like flex-column center">
+
+            <span class="feel-temp">
+                Sensação térmica:
+            </span>
+            <h2 class="feel_deg">
+                {{ temp.main.feels_like }} °C
+            </h2>
+
+        </div>
+        <div class="max-min flex-row center">
+
+            <div class="temp-max flex-column center">
+                <span>
+                    Temp.max:
+                </span>
+                <h2 class="temp-max-deg ">
+                    {{ temp.main.temp_max }} °C
+                </h2>
+            </div>
+            <div class="temp-mim flex-column center">
+                <span>
+                    Temp.min:
+                </span>
+                <h2 class="temp-min-deg">
+                    {{ temp.main.temp_min }} °C
+                </h2>
+            </div>
+
+        </div>
+
+    </div>
+
+</main>

@@ -1,0 +1,34 @@
+<main class="city-container component">
+
+    <div class="city-data flex-row center">
+
+        <h1 class="city-name">
+            {{ city.name }}
+        </h1>
+        <span>
+            {{ countryBagde }}
+        </span>
+
+    </div>
+    <div class="country-data flex-row center">
+
+        <h2 class="country-name">
+            País: {{ city.country }}
+        </h2>
+        <span>
+            - {{ city.countryCode }}
+        </span>
+
+    </div>
+    <div class="lat-lon-data flex-row center">
+
+        <h2 class="latitude">
+            Latitude: {{ city.coord.lat }}
+        </h2>
+        <h2 class="longitude">
+            Longitude: {{ city.coord.lon }}
+        </h2>
+
+    </div>
+
+</main>
