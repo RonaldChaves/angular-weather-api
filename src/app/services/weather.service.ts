@@ -4,7 +4,6 @@ import { API } from '../api/variable.env';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { WeatherData } from '../models/WeatherData';
-import { SearchCityService } from './search-city.service';
 
 @Injectable({
   providedIn: 'root'
