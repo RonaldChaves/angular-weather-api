@@ -1,6 +1,6 @@
 // File for hidden a api key on '.env'
 
-import { KEY } from "./key";
+import { KEY } from "./key.env";
 
 //  require('dotenv').config() //require for return a environment variables
 // const key = process.env["API_KEY"]; // api_key value
