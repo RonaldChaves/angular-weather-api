@@ -2,6 +2,7 @@ import { Component, Input, OnChanges, OnInit } from '@angular/core';
 import { TemperatureData } from '../../models/tempData';
 import { WeatherService } from '../../services/weather.service';
 import { SearchCityService } from '../../services/search-city.service';
+import { Console } from 'console';
 
 @Component({
   selector: 'app-temperature',
@@ -11,15 +12,16 @@ import { SearchCityService } from '../../services/search-city.service';
 export class TemperatureComponent implements OnInit {
 
   temp: TemperatureData = {
-    weather: {
-      description: ''
-    },
     main: {
       temp: 0,
       feels_like: 0,
       temp_max: 0,
       temp_min: 0
-    }
+    },
+    weather: [{
+      description: "  ",
+      icon: ''
+    }]
   }
   constructor(
     private service: WeatherService,
@@ -28,30 +30,45 @@ export class TemperatureComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.getTemp('itaoca');
+    this.getTemp('itaoca', 'pt_br');
 
     //This change the city name with Observable()
     this.search.currentCityName.subscribe((cityName: string) => {
       if (cityName) {
-        this.getTemp(cityName);
+
+        this.getTemp(cityName,
+          this.search.currentLangauge
+            .subscribe(lang => {
+              if (lang) this.getTemp(cityName, lang)
+            }));
       }
     });
   }
 
+  getLang(cL: string) {
+    return cL;
+  }
 
-  getTemp(citySearch: string) {
-    var t: any = this.temp;
+  getTemp(citySearch: string, currentLanguage: string | any) {
+    let t: any = this.temp;
 
-    this.service.getWeatherData(citySearch).subscribe({
+    this.service.getWeatherData(citySearch, currentLanguage).subscribe({
       next: (res) => {
         t.main.temp = res.main.temp,
           t.main.feels_like = res.main.feels_like,
           t.main.temp_max = res.main.temp_max,
           t.main.temp_min = res.main.temp_min,
-          t.weather.description = res.weather[0].descripiton
+          t.weather[0].description = res.weather[0].description,
+          t.weather[0].icon = this.getIconWeather(res.weather[0].icon)
       },
       error: (err) => { alert('not found') }
     })
+  }
+
+  getIconWeather(currentIcon: string) {
+    const iconURL: string = `https://openweathermap.org/img/wn/${currentIcon}@2x.png`;
+
+    return iconURL;
   }
 
 }

@@ -19,7 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     ComponentsModule,
     PagesModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   exports: [],
   providers: [

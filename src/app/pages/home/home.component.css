@@ -46,3 +46,29 @@
 .lang-container {
     width: 100%;
 }
+
+.lang-change-box {
+    padding: 0.4rem;
+    background-color: #282a29;
+    border-radius: 1rem;
+}
+
+.lang-change {
+    background: none;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+}
+
+option {
+    background-color: #282a29;
+    padding: 0.4rem;
+    border: none;
+}
+
+.btn-change-lang {
+    border: none;
+    background-color: #282a29;
+    color: #fff;
+    border-radius: 50%;
+}

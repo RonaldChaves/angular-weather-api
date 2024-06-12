@@ -5,6 +5,8 @@
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
+    "allowSyntheticDefaultImports": true, // for json
+    "resolveJsonModule": true, // for json
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,

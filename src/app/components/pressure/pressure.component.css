@@ -1,0 +1,25 @@
+.pressure {
+    height: 250px;
+    max-height: 300px;
+    width: 100%;
+    max-width: 530px;
+
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.pressure div {
+    gap: 1rem;
+}
+
+span {
+    font-size: 2rem;
+}
+
+.pressure h2 {
+    font-size: 3.4rem;
+}
+
+.not-found {
+    text-align: center;
+}

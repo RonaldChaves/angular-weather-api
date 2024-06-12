@@ -28,13 +28,24 @@
             <span class="lang">
                 LANG:
             </span>
-            <span class="lang-brand">br</span>
+            <span class="lang-brand">
+                {{ countryCompleteName }}
+            </span>
 
         </div>
-        <button class="lang-change">
-            <i class="fa-solid fa-caret-down"></i>
-        </button>
+        <div class="lang-change-box">
 
+            <select class="lang-change" name="" id="" (change)="updateCountryName($event)">
+                <option value="{{ i.code }}" *ngFor="let i of multlang">
+                    {{ i.code }}
+                </option>
+            </select>
+
+            <button class="btn-change-lang" (click)="getLanguageSearched()">
+                <i class="fa-solid fa-arrows-rotate"></i></button>
+
+
+        </div>
     </div>
 
 </main>

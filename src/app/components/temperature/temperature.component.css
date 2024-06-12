@@ -1,4 +1,36 @@
 .temperature {
     padding: 1rem;
     padding-bottom: 1rem;
+
+    justify-content: space-evenly;
+    height: 250px;
+    max-height: 300px;
+    max-width: 100%;
+    gap: 3rem;
+
+}
+
+.temp-now {
+    font-size: 7rem;
+    margin: 0.4rem;
+}
+
+.weather-desc {
+    font-size: 2rem;
+}
+
+.right {
+    gap: 1rem;
+}
+
+.right span {
+    font-size: 1.6rem;
+}
+
+.right h2 {
+    font-size: 2.4rem;
+}
+
+.max-min {
+    gap: 1rem;
 }

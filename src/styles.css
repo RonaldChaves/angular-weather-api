@@ -28,13 +28,17 @@ h2,
 h3 {
     font-family: "Sarala", sans-serif;
     color: #fff;
+    margin: 0;
+
 }
 
 span,
 p {
     font-family: "Hind", sans-serif;
     color: #282a29;
+    font-weight: bold;
 }
+
 
 .flex-row {
     display: flex;
@@ -54,4 +58,5 @@ p {
 .component {
     border: 2px solid #fff;
     border-radius: 0.2rem;
+    backdrop-filter: blur(10px);
 }

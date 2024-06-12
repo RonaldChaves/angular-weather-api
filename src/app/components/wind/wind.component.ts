@@ -9,13 +9,14 @@ import { SearchCityService } from '../../services/search-city.service';
   styleUrl: './wind.component.css'
 })
 export class WindComponent implements OnInit {
+  transformDegree: string = '';
 
-wind: WindData = {
-  wind: {
-    speed: 0,
-    deg: 0
+  wind: WindData = {
+    wind: {
+      speed: 0,
+      deg: 0
+    }
   }
-}
 
   constructor(
     private service: WeatherService,
@@ -25,17 +26,24 @@ wind: WindData = {
     this.getDetails('itaoca'); // Default city
 
     this.search.currentCityName.subscribe(cityName => {
-      if(cityName) this.getDetails(cityName)
+      if (cityName) this.getDetails(cityName)
     });
   }
 
-  getDetails(cityName: string){
-    this.service.getWeatherData(cityName).subscribe({
+  getDetails(cityName: string) {
+    this.service.getWeatherData(cityName, 'pt_br').subscribe({
       next: (res) => {
         this.wind.wind.speed = res.wind.speed,
-        this.wind.wind.deg = res.wind.deg
+          this.wind.wind.deg = res.wind.deg
       },
-       error: (err) => alert('Not Found')
+      error: (err) => alert('Not Found')
     });
   }
+
+  getDegreeStyle(currentDegree: number) {
+    this.transformDegree = `rotate(${currentDegree}deg)`;
+
+    return this.transformDegree;
+  }
+
 }

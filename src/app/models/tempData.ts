@@ -1,8 +1,9 @@
 export type TemperatureData = {
-    weather: {
+    weather: [{
         description: string,
-    },
-    main:{
+        icon: string
+    }],
+    main: {
         temp: number,
         feels_like: number,
         temp_max: number,

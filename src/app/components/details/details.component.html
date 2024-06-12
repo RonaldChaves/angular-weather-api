@@ -6,7 +6,7 @@
             Humidade:
         </span>
         <div class="humi-data flex-row center">
-            <i class="fa-solid fa-drop"></i>
+            <i class="fa-solid fa-droplet"></i>
             <h2 class="humidity-perc">
                 {{ details.main.humidity }} %
             </h2>
@@ -14,12 +14,11 @@
 
     </div>
     <div class="visibility-box flex-column center">
-
         <span>
-            visibilidade:
+            Visibilidade:
         </span>
         <div class="visi-data flex-row center">
-            <i class="fa-solid fa-drop"></i>
+            <i class="fa-solid fa-eye"></i>
             <h2 class="visibility-perc">
                 {{ details.visibility }} %
             </h2>
@@ -40,7 +39,7 @@
 
 
     </div>
-    <div class="flex-row center">
+    <div class="sun flex-row center">
 
         <div class="sunrise-box flex-column center">
 
@@ -50,6 +49,9 @@
             <h2 class="sunrise">
                 {{ details.sys.sunrise }}
             </h2>
+            <span class="timezone">
+                BRT (UTC-3)
+            </span>
 
         </div>
         <div class="sunset-box flex-column center">
@@ -60,7 +62,9 @@
             <h2 class="sunset">
                 {{ details.sys.sunset }}
             </h2>
-
+            <span class="timezone">
+                BRT (UTC-3)
+            </span>
         </div>
 
     </div>

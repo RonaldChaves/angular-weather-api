@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+
 import { DetailsData } from '../../models/deatilsData';
 import { WeatherService } from '../../services/weather.service';
-import { error } from 'console';
 import { SearchCityService } from '../../services/search-city.service';
 
 @Component({
@@ -10,12 +10,7 @@ import { SearchCityService } from '../../services/search-city.service';
   styleUrl: './details.component.css'
 })
 export class DetailsComponent implements OnInit {
-  humidity: any;
-  cloudPercent: any;
-  visibility: any;
-  sunrise: any;
-  sunset: any;
-
+ 
   details: DetailsData = {
     visibility: 0,
     clouds: {
@@ -37,23 +32,35 @@ export class DetailsComponent implements OnInit {
   ngOnInit(): void {
     this.getDetails('itaoca');
 
-    this.search.currentCityName.subscribe(cityname =>{
-      if(cityname) this.getDetails(cityname);
+    this.search.currentCityName.subscribe(cityname => {
+      if (cityname) this.getDetails(cityname);
     })
   }
 
   getDetails(cityName: string) {
     var d: any = this.details;
 
-    this.service.getWeatherData(cityName).subscribe({
+    this.service.getWeatherData(cityName, 'pt_br').subscribe({
       next: (res) => {
         d.main.humidity = res.main.humidity,
           d.clouds.all = res.clouds.all,
-          d.sys.sunrise = res.sys.sunrise,
-          d.sys.sunset = res.sys.sunset,
-          d.visibility = res.visibility
+          d.sys.sunrise = this.getUnixTime(res.sys.sunrise),
+          d.sys.sunset = this.getUnixTime(res.sys.sunset),
+          d.visibility = res.visibility / 100 // for use percent (%)
       },
-      error: (err) => {console.log(alert('Not Found'))}
+      error: (err) => { console.log(alert('Not Found')) }
     });
+  }
+
+  getUnixTime(time: number) {
+    var date: Date = new Date(time * 1000);
+
+    var hours: number = date.getHours();
+    var minutes: number | string = '' + date.getMinutes();
+    var seconds: number | string = '' + date.getSeconds();
+
+    var formattedTime: number | string = hours + ':' + minutes.substring(-2) + ':' + seconds.substring(-2) + 'h';
+
+    return formattedTime;
   }
 }

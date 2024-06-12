@@ -6,29 +6,37 @@
             {{ city.name }}
         </h1>
         <span>
-            {{ countryBagde }}
+            <img class="city-badge" src="{{ city.countryBadge }}" alt="{{ city.countryCode }}">
         </span>
 
     </div>
     <div class="country-data flex-row center">
 
         <h2 class="country-name">
-            País: {{ city.country }}
+            {{ city.country }}
         </h2>
-        <span>
-            - {{ city.countryCode }}
+        <span class="country-code">
+            <span>
+                -
+            </span>
+            {{ city.countryCode }}
         </span>
 
     </div>
     <div class="lat-lon-data flex-row center">
 
-        <h2 class="latitude">
-            Latitude: {{ city.coord.lat }}
-        </h2>
-        <h2 class="longitude">
-            Longitude: {{ city.coord.lon }}
-        </h2>
-
+        <span class="latitude flex-column center">
+            Latitude:
+            <h2>
+                {{ city.coord.lat }}°
+            </h2>
+        </span>
+        <span class="longitude flex-column center">
+            Longitude:
+            <h2>
+                {{ city.coord.lon }}°
+            </h2>
+        </span>
     </div>
 
 </main>

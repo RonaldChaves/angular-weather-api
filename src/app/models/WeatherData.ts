@@ -7,7 +7,7 @@ export type WeatherData = {
     },
     weather: [{
         id: number,
-        descripiton: string,
+        description: string,
         icon: string
     }],
     main: {
@@ -34,5 +34,6 @@ export type WeatherData = {
         sunset: number
     },
     timezone: number,
-    name: string
+    name: string,
+    countryBage: any
 }

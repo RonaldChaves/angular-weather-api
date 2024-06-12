@@ -7,17 +7,17 @@
                 {{ temp.main.temp }} °C
             </h1>
         </div>
-        <div class="description">
+        <div class="description flex-row center ">
 
-            <i class="fa-solid fa-cloud"></i>
+            <img src="{{ temp.weather[0].icon }}" alt="">
             <h2 class="weather-desc">
-                {{ temp.weather.description }}
+                {{ temp.weather[0].description | titlecase }}
             </h2>
 
         </div>
 
     </div>
-    <div class="flex-column center">
+    <div class="right flex-column center">
 
         <div class="feels-like flex-column center">
 

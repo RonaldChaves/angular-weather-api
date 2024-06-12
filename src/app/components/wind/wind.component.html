@@ -1,4 +1,4 @@
-<main class="wind-container component">
+<main class="wind-container component flex-column center">
 
     <div class="flex-row center">
 
@@ -12,7 +12,7 @@
         <span>
             Direção:
         </span>
-        <i class="fa-solid fa-arrow-up"></i>
+        <i class="fa-solid fa-arrow-up" [style.transform]="getDegreeStyle(wind.wind.deg)"></i>
         <h2>
             {{ wind.wind.deg }} °
         </h2>

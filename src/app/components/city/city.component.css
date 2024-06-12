@@ -1,4 +1,45 @@
 .city-container {
     padding: 1rem;
-    
+
+    height: 250px;
+    max-height: 300px;
+    width: 100%;
+    max-width: 530px;
+}
+
+.city-name {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.city-badge {
+    margin-left: 1rem;
+    width: 100%;
+}
+
+.country-data {
+    margin: 0;
+}
+
+.country-name {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.country-code {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.lat-lon-data {
+    gap: 2rem;
+}
+
+.lat-lon-data h2 {
+    margin: 0.4rem;
+}
+
+.lat-lon-data span {
+    font-size: 1.2rem;
 }

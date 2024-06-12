@@ -1,0 +1,26 @@
+.wind-container {
+
+    height: 250px;
+    max-height: 300px;
+    width: 100%;
+    max-width: 530px;
+
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.wind-container div {
+    gap: 1rem;
+}
+
+.wind-container h2 {
+    font-size: 4rem;
+}
+
+i {
+    font-size: 3rem;
+}
+
+span {
+    font-size: 2.5rem;
+}
