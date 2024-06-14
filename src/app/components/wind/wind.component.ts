@@ -35,8 +35,7 @@ export class WindComponent implements OnInit {
       next: (res) => {
         this.wind.wind.speed = res.wind.speed,
           this.wind.wind.deg = res.wind.deg
-      },
-      error: (err) => alert('Not Found')
+      }
     });
   }
 

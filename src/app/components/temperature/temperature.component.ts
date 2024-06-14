@@ -1,8 +1,7 @@
-import { Component, Input, OnChanges, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { TemperatureData } from '../../models/tempData';
 import { WeatherService } from '../../services/weather.service';
 import { SearchCityService } from '../../services/search-city.service';
-import { Console } from 'console';
 
 @Component({
   selector: 'app-temperature',
@@ -30,14 +29,12 @@ export class TemperatureComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.getTemp('itaoca', 'pt_br');
-
     //This change the city name with Observable()
     this.search.currentCityName.subscribe((cityName: string) => {
       if (cityName) {
 
         this.getTemp(cityName,
-          this.search.currentLangauge
+          this.search.currentLanguage
             .subscribe(lang => {
               if (lang) this.getTemp(cityName, lang)
             }));
@@ -45,6 +42,7 @@ export class TemperatureComponent implements OnInit {
     });
   }
 
+  // Method for return a current language
   getLang(cL: string) {
     return cL;
   }
@@ -60,8 +58,7 @@ export class TemperatureComponent implements OnInit {
           t.main.temp_min = res.main.temp_min,
           t.weather[0].description = res.weather[0].description,
           t.weather[0].icon = this.getIconWeather(res.weather[0].icon)
-      },
-      error: (err) => { alert('not found') }
+      } 
     })
   }
 

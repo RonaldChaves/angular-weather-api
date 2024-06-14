@@ -1,42 +1,58 @@
 <main class="content flex-column center">
-    <div class="city-temp">
 
-        <section class="city">
-            <span>
-                Cidade:
-            </span>
-            <app-city></app-city>
-        </section>
-        <section class="temperature">
-            <span>
-                Temperatura:
-            </span>
-            <app-temperature></app-temperature>
-        </section>
+    <div *ngIf="welcome && notFound" class="welcome">
 
-
+        <app-welcome></app-welcome>
 
     </div>
-    <div class="details-wind-pressure">
 
-        <section class="details">
-            <span>
-                Detalhes:
-            </span>
-            <app-details></app-details>
-        </section>
-        <section class="wind">
-            <span>
-                Vento:
-            </span>
-            <app-wind></app-wind>
-        </section>
-        <section class="pressure">
-            <span>
-                Pressão:
-            </span>
-            <app-pressure></app-pressure>
-        </section>
+    <div *ngIf="notFound && !welcome">
+
+        <div class="city-temp">
+
+            <section class="city">
+                <span>
+                    Cidade:
+                </span>
+                <app-city></app-city>
+            </section>
+            <section class="temperature">
+                <span>
+                    Temperatura:
+                </span>
+                <app-temperature></app-temperature>
+            </section>
+
+
+
+        </div>
+        <div class="details-wind-pressure">
+
+            <section class="details">
+                <span>
+                    Detalhes:
+                </span>
+                <app-details></app-details>
+            </section>
+            <section class="wind">
+                <span>
+                    Vento:
+                </span>
+                <app-wind></app-wind>
+            </section>
+            <section class="pressure">
+                <span>
+                    Pressão e lat/lon:
+                </span>
+                <app-pressure></app-pressure>
+            </section>
+
+        </div>
+
+    </div>
+    <div *ngIf="!notFound" class="error-container">
+
+        <not-found-404></not-found-404>
 
     </div>
 

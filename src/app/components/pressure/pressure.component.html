@@ -1,30 +1,51 @@
-<main *ngIf="inWork" class="pressure component flex-row center">
+<main class="pressure component flex-column center">
 
-    <div class="flex-column center">
-        <span>
-            Nível do mar:
-        </span>
-        <h2>
-            {{ pressure.main.sea_level }} hPa
-        </h2>
+    <div *ngIf="inWorkPressure" class="flex-row center">
+
+        <div class="flex-column center">
+            <span>
+                Nível do mar:
+            </span>
+            <h2>
+                {{ pressure.main.sea_level }} hPa
+            </h2>
+        </div>
+        <div class="flex-column center">
+            <span>
+                Nível do solo:
+            </span>
+            <h2>
+                {{ pressure.main.grnd_level }} hPa
+            </h2>
+        </div>
+
     </div>
-    <div class="flex-column center">
-        <span>
-            Nível do solo:
-        </span>
-        <h2>
-            {{ pressure.main.grnd_level }} hPa
-        </h2>
+    <div *ngIf="!inWorkPressure" class="not-found">
+
+        <div class="not-found">
+
+            <h2>
+                Sem dados de pressão!!
+            </h2>
+
+        </div>
+
     </div>
+    <hr>
+    <div class="lat-lon-data flex-row center">
 
-</main>
-<main *ngIf="!inWork" class="pressure component flex-row center">
-
-    <div class="not-found">
-
-        <h2>
-            Sem dados de pressão!!
-        </h2>
+        <span class="latitude flex-column center">
+            Latitude:
+            <h2>
+                {{ pressure.coord.lat }}°
+            </h2>
+        </span>
+        <span class="longitude flex-column center">
+            Longitude:
+            <h2>
+                {{ pressure.coord.lon }}°
+            </h2>
+        </span>
 
     </div>
 

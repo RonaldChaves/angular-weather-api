@@ -23,20 +23,27 @@
         </span>
 
     </div>
-    <div class="lat-lon-data flex-row center">
+    <div class="capital-container flex-row center">
 
-        <span class="latitude flex-column center">
-            Latitude:
-            <h2>
-                {{ city.coord.lat }}°
+        <div class="capital-box flex-column center">
+            <span>
+                Capital do país:
+            </span>
+            <h2 class="capital">
+                {{ capitalName }}
             </h2>
-        </span>
-        <span class="longitude flex-column center">
-            Longitude:
-            <h2>
-                {{ city.coord.lon }}°
+
+        </div>
+        <div class="timeUTC-box flex-column center">
+            <span>
+                Horário Local:
+            </span>
+            <h2 class="timeUTC">
+                {{ timeUTCCapital }}
             </h2>
-        </span>
+
+        </div>
+
     </div>
 
 </main>

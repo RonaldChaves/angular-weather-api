@@ -19,7 +19,7 @@ export class SearchCityService {
   }
 
   private languageSource = new BehaviorSubject<string>('');
-  currentLangauge = this.languageSource.asObservable();
+  currentLanguage = this.languageSource.asObservable();
 
   changeLanguage(language: any) {
     this.languageSource.next(language);

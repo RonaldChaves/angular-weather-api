@@ -1,0 +1,982 @@
+[
+    {
+        "country_code": "AF",
+        "capital": "Kabul",
+        "timezone": 4.5
+    },
+    {
+        "country_code": "AL",
+        "capital": "Tirana",
+        "timezone": 2
+    },
+    {
+        "country_code": "DZ",
+        "capital": "Algiers",
+        "timezone": 1
+    },
+    {
+        "country_code": "AS",
+        "capital": "Pago Pago",
+        "timezone": -11
+    },
+    {
+        "country_code": "AD",
+        "capital": "Andorra la Vella",
+        "timezone": 2
+    },
+    {
+        "country_code": "AO",
+        "capital": "Luanda",
+        "timezone": 1
+    },
+    {
+        "country_code": "AG",
+        "capital": "Saint John's",
+        "timezone": -4
+    },
+    {
+        "country_code": "AR",
+        "capital": "Buenos Aires",
+        "timezone": -3
+    },
+    {
+        "country_code": "AM",
+        "capital": "Yerevan",
+        "timezone": 4
+    },
+    {
+        "country_code": "AU",
+        "capital": "Canberra",
+        "timezone": 10
+    },
+    {
+        "country_code": "AT",
+        "capital": "Vienna",
+        "timezone": 2
+    },
+    {
+        "country_code": "AZ",
+        "capital": "Baku",
+        "timezone": 4
+    },
+    {
+        "country_code": "BS",
+        "capital": "Nassau",
+        "timezone": -4
+    },
+    {
+        "country_code": "BH",
+        "capital": "Manama",
+        "timezone": 3
+    },
+    {
+        "country_code": "BD",
+        "capital": "Dhaka",
+        "timezone": 6
+    },
+    {
+        "country_code": "BB",
+        "capital": "Bridgetown",
+        "timezone": -4
+    },
+    {
+        "country_code": "BY",
+        "capital": "Minsk",
+        "timezone": 3
+    },
+    {
+        "country_code": "BE",
+        "capital": "Brussels",
+        "timezone": 2
+    },
+    {
+        "country_code": "BZ",
+        "capital": "Belmopan",
+        "timezone": -6
+    },
+    {
+        "country_code": "BJ",
+        "capital": "Porto-Novo",
+        "timezone": 1
+    },
+    {
+        "country_code": "BT",
+        "capital": "Thimphu",
+        "timezone": 6
+    },
+    {
+        "country_code": "BO",
+        "capital": "Sucre",
+        "timezone": -4
+    },
+    {
+        "country_code": "BA",
+        "capital": "Sarajevo",
+        "timezone": 2
+    },
+    {
+        "country_code": "BW",
+        "capital": "Gaborone",
+        "timezone": 2
+    },
+    {
+        "country_code": "BR",
+        "capital": "Brasilia",
+        "timezone": -3
+    },
+    {
+        "country_code": "BN",
+        "capital": "Bandar Seri Begawan",
+        "timezone": 8
+    },
+    {
+        "country_code": "BG",
+        "capital": "Sofia",
+        "timezone": 3
+    },
+    {
+        "country_code": "BF",
+        "capital": "Ouagadougou",
+        "timezone": 0
+    },
+    {
+        "country_code": "BI",
+        "capital": "Gitega",
+        "timezone": 2
+    },
+    {
+        "country_code": "KH",
+        "capital": "Phnom Penh",
+        "timezone": 7
+    },
+    {
+        "country_code": "CM",
+        "capital": "Yaoundé",
+        "timezone": 1
+    },
+    {
+        "country_code": "CA",
+        "capital": "Ottawa",
+        "timezone": -4
+    },
+    {
+        "country_code": "CV",
+        "capital": "Praia",
+        "timezone": -1
+    },
+    {
+        "country_code": "CF",
+        "capital": "Bangui",
+        "timezone": 1
+    },
+    {
+        "country_code": "TD",
+        "capital": "N'Djamena",
+        "timezone": 1
+    },
+    {
+        "country_code": "CL",
+        "capital": "Santiago",
+        "timezone": -4
+    },
+    {
+        "country_code": "CN",
+        "capital": "Beijing",
+        "timezone": 8
+    },
+    {
+        "country_code": "CO",
+        "capital": "Bogotá",
+        "timezone": -5
+    },
+    {
+        "country_code": "KM",
+        "capital": "Moroni",
+        "timezone": 3
+    },
+    {
+        "country_code": "CG",
+        "capital": "Brazzaville",
+        "timezone": 1
+    },
+    {
+        "country_code": "CD",
+        "capital": "Kinshasa",
+        "timezone": 1
+    },
+    {
+        "country_code": "CR",
+        "capital": "San José",
+        "timezone": -6
+    },
+    {
+        "country_code": "HR",
+        "capital": "Zagreb",
+        "timezone": 2
+    },
+    {
+        "country_code": "CU",
+        "capital": "Havana",
+        "timezone": -4
+    },
+    {
+        "country_code": "CY",
+        "capital": "Nicosia",
+        "timezone": 3
+    },
+    {
+        "country_code": "CZ",
+        "capital": "Prague",
+        "timezone": 2
+    },
+    {
+        "country_code": "DK",
+        "capital": "Copenhagen",
+        "timezone": 2
+    },
+    {
+        "country_code": "DJ",
+        "capital": "Djibouti",
+        "timezone": 3
+    },
+    {
+        "country_code": "DM",
+        "capital": "Roseau",
+        "timezone": -4
+    },
+    {
+        "country_code": "DO",
+        "capital": "Santo Domingo",
+        "timezone": -4
+    },
+    {
+        "country_code": "EC",
+        "capital": "Quito",
+        "timezone": -5
+    },
+    {
+        "country_code": "EG",
+        "capital": "Cairo",
+        "timezone": 2
+    },
+    {
+        "country_code": "SV",
+        "capital": "San Salvador",
+        "timezone": -6
+    },
+    {
+        "country_code": "GQ",
+        "capital": "Malabo",
+        "timezone": 1
+    },
+    {
+        "country_code": "ER",
+        "capital": "Asmara",
+        "timezone": 3
+    },
+    {
+        "country_code": "EE",
+        "capital": "Tallinn",
+        "timezone": 3
+    },
+    {
+        "country_code": "SZ",
+        "capital": "Mbabane",
+        "timezone": 2
+    },
+    {
+        "country_code": "ET",
+        "capital": "Addis Ababa",
+        "timezone": 3
+    },
+    {
+        "country_code": "FJ",
+        "capital": "Suva",
+        "timezone": 12
+    },
+    {
+        "country_code": "FI",
+        "capital": "Helsinki",
+        "timezone": 3
+    },
+    {
+        "country_code": "FR",
+        "capital": "Paris",
+        "timezone": 2
+    },
+    {
+        "country_code": "GA",
+        "capital": "Libreville",
+        "timezone": 1
+    },
+    {
+        "country_code": "GM",
+        "capital": "Banjul",
+        "timezone": 0
+    },
+    {
+        "country_code": "GE",
+        "capital": "Tbilisi",
+        "timezone": 4
+    },
+    {
+        "country_code": "DE",
+        "capital": "Berlin",
+        "timezone": 2
+    },
+    {
+        "country_code": "GH",
+        "capital": "Accra",
+        "timezone": 0
+    },
+    {
+        "country_code": "GR",
+        "capital": "Athens",
+        "timezone": 3
+    },
+    {
+        "country_code": "GD",
+        "capital": "St. George's",
+        "timezone": -4
+    },
+    {
+        "country_code": "GT",
+        "capital": "Guatemala City",
+        "timezone": -6
+    },
+    {
+        "country_code": "GN",
+        "capital": "Conakry",
+        "timezone": 0
+    },
+    {
+        "country_code": "GW",
+        "capital": "Bissau",
+        "timezone": 0
+    },
+    {
+        "country_code": "GY",
+        "capital": "Georgetown",
+        "timezone": -4
+    },
+    {
+        "country_code": "HT",
+        "capital": "Port-au-Prince",
+        "timezone": -4
+    },
+    {
+        "country_code": "HN",
+        "capital": "Tegucigalpa",
+        "timezone": -6
+    },
+    {
+        "country_code": "HU",
+        "capital": "Budapest",
+        "timezone": 2
+    },
+    {
+        "country_code": "IS",
+        "capital": "Reykjavik",
+        "timezone": 0
+    },
+    {
+        "country_code": "IN",
+        "capital": "New Delhi",
+        "timezone": 5.5
+    },
+    {
+        "country_code": "ID",
+        "capital": "Jakarta",
+        "timezone": 7
+    },
+    {
+        "country_code": "IR",
+        "capital": "Tehran",
+        "timezone": 4.5
+    },
+    {
+        "country_code": "IQ",
+        "capital": "Baghdad",
+        "timezone": 3
+    },
+    {
+        "country_code": "IE",
+        "capital": "Dublin",
+        "timezone": 1
+    },
+    {
+        "country_code": "IL",
+        "capital": "Jerusalem",
+        "timezone": 3
+    },
+    {
+        "country_code": "IT",
+        "capital": "Rome",
+        "timezone": 2
+    },
+    {
+        "country_code": "CI",
+        "capital": "Yamoussoukro",
+        "timezone": 0
+    },
+    {
+        "country_code": "JM",
+        "capital": "Kingston",
+        "timezone": -5
+    },
+    {
+        "country_code": "JP",
+        "capital": "Tokyo",
+        "timezone": 9
+    },
+    {
+        "country_code": "JO",
+        "capital": "Amman",
+        "timezone": 3
+    },
+    {
+        "country_code": "KZ",
+        "capital": "Astana",
+        "timezone": 6
+    },
+    {
+        "country_code": "KE",
+        "capital": "Nairobi",
+        "timezone": 3
+    },
+    {
+        "country_code": "KI",
+        "capital": "Tarawa",
+        "timezone": 12
+    },
+    {
+        "country_code": "KP",
+        "capital": "Pyongyang",
+        "timezone": 9
+    },
+    {
+        "country_code": "KR",
+        "capital": "Seoul",
+        "timezone": 9
+    },
+    {
+        "country_code": "KW",
+        "capital": "Kuwait City",
+        "timezone": 3
+    },
+    {
+        "country_code": "KG",
+        "capital": "Bishkek",
+        "timezone": 6
+    },
+    {
+        "country_code": "LA",
+        "capital": "Vientiane",
+        "timezone": 7
+    },
+    {
+        "country_code": "LV",
+        "capital": "Riga",
+        "timezone": 3
+    },
+    {
+        "country_code": "LB",
+        "capital": "Beirut",
+        "timezone": 3
+    },
+    {
+        "country_code": "LS",
+        "capital": "Maseru",
+        "timezone": 2
+    },
+    {
+        "country_code": "LR",
+        "capital": "Monrovia",
+        "timezone": 0
+    },
+    {
+        "country_code": "LY",
+        "capital": "Tripoli",
+        "timezone": 2
+    },
+    {
+        "country_code": "LI",
+        "capital": "Vaduz",
+        "timezone": 2
+    },
+    {
+        "country_code": "LT",
+        "capital": "Vilnius",
+        "timezone": 3
+    },
+    {
+        "country_code": "LU",
+        "capital": "Luxembourg",
+        "timezone": 2
+    },
+    {
+        "country_code": "MG",
+        "capital": "Antananarivo",
+        "timezone": 3
+    },
+    {
+        "country_code": "MW",
+        "capital": "Lilongwe",
+        "timezone": 2
+    },
+    {
+        "country_code": "MY",
+        "capital": "Kuala Lumpur",
+        "timezone": 8
+    },
+    {
+        "country_code": "MV",
+        "capital": "Malé",
+        "timezone": 5
+    },
+    {
+        "country_code": "ML",
+        "capital": "Bamako",
+        "timezone": 0
+    },
+    {
+        "country_code": "MT",
+        "capital": "Valletta",
+        "timezone": 2
+    },
+    {
+        "country_code": "MH",
+        "capital": "Majuro",
+        "timezone": 12
+    },
+    {
+        "country_code": "MR",
+        "capital": "Nouakchott",
+        "timezone": 0
+    },
+    {
+        "country_code": "MU",
+        "capital": "Port Louis",
+        "timezone": 4
+    },
+    {
+        "country_code": "MX",
+        "capital": "Mexico City",
+        "timezone": -5
+    },
+    {
+        "country_code": "FM",
+        "capital": "Palikir",
+        "timezone": 11
+    },
+    {
+        "country_code": "MD",
+        "capital": "Chișinău",
+        "timezone": 3
+    },
+    {
+        "country_code": "MC",
+        "capital": "Monaco",
+        "timezone": 2
+    },
+    {
+        "country_code": "MN",
+        "capital": "Ulaanbaatar",
+        "timezone": 8
+    },
+    {
+        "country_code": "ME",
+        "capital": "Podgorica",
+        "timezone": 2
+    },
+    {
+        "country_code": "MA",
+        "capital": "Rabat",
+        "timezone": 1
+    },
+    {
+        "country_code": "MZ",
+        "capital": "Maputo",
+        "timezone": 2
+    },
+    {
+        "country_code": "MM",
+        "capital": "Naypyidaw",
+        "timezone": 6.5
+    },
+    {
+        "country_code": "NA",
+        "capital": "Windhoek",
+        "timezone": 2
+    },
+    {
+        "country_code": "NR",
+        "capital": "Yaren",
+        "timezone": 12
+    },
+    {
+        "country_code": "NP",
+        "capital": "Kathmandu",
+        "timezone": 5.75
+    },
+    {
+        "country_code": "NL",
+        "capital": "Amsterdam",
+        "timezone": 2
+    },
+    {
+        "country_code": "NZ",
+        "capital": "Wellington",
+        "timezone": 12
+    },
+    {
+        "country_code": "NI",
+        "capital": "Managua",
+        "timezone": -6
+    },
+    {
+        "country_code": "NE",
+        "capital": "Niamey",
+        "timezone": 1
+    },
+    {
+        "country_code": "NG",
+        "capital": "Abuja",
+        "timezone": 1
+    },
+    {
+        "country_code": "NO",
+        "capital": "Oslo",
+        "timezone": 2
+    },
+    {
+        "country_code": "OM",
+        "capital": "Muscat",
+        "timezone": 4
+    },
+    {
+        "country_code": "PK",
+        "capital": "Islamabad",
+        "timezone": 5
+    },
+    {
+        "country_code": "PW",
+        "capital": "Ngerulmud",
+        "timezone": 9
+    },
+    {
+        "country_code": "PS",
+        "capital": "Ramallah",
+        "timezone": 3
+    },
+    {
+        "country_code": "PA",
+        "capital": "Panama City",
+        "timezone": -5
+    },
+    {
+        "country_code": "PG",
+        "capital": "Port Moresby",
+        "timezone": 10
+    },
+    {
+        "country_code": "PY",
+        "capital": "Asunción",
+        "timezone": -4
+    },
+    {
+        "country_code": "PE",
+        "capital": "Lima",
+        "timezone": -5
+    },
+    {
+        "country_code": "PH",
+        "capital": "Manila",
+        "timezone": 8
+    },
+    {
+        "country_code": "PL",
+        "capital": "Warsaw",
+        "timezone": 2
+    },
+    {
+        "country_code": "PT",
+        "capital": "Lisbon",
+        "timezone": 1
+    },
+    {
+        "country_code": "QA",
+        "capital": "Doha",
+        "timezone": 3
+    },
+    {
+        "country_code": "RO",
+        "capital": "Bucharest",
+        "timezone": 3
+    },
+    {
+        "country_code": "RU",
+        "capital": "Moscow",
+        "timezone": 3
+    },
+    {
+        "country_code": "RW",
+        "capital": "Kigali",
+        "timezone": 2
+    },
+    {
+        "country_code": "KN",
+        "capital": "Basseterre",
+        "timezone": -4
+    },
+    {
+        "country_code": "LC",
+        "capital": "Castries",
+        "timezone": -4
+    },
+    {
+        "country_code": "VC",
+        "capital": "Kingstown",
+        "timezone": -4
+    },
+    {
+        "country_code": "WS",
+        "capital": "Apia",
+        "timezone": 13
+    },
+    {
+        "country_code": "SM",
+        "capital": "San Marino",
+        "timezone": 2
+    },
+    {
+        "country_code": "ST",
+        "capital": "São Tomé",
+        "timezone": 0
+    },
+    {
+        "country_code": "SA",
+        "capital": "Riyadh",
+        "timezone": 3
+    },
+    {
+        "country_code": "SN",
+        "capital": "Dakar",
+        "timezone": 0
+    },
+    {
+        "country_code": "RS",
+        "capital": "Belgrade",
+        "timezone": 2
+    },
+    {
+        "country_code": "SC",
+        "capital": "Victoria",
+        "timezone": 4
+    },
+    {
+        "country_code": "SL",
+        "capital": "Freetown",
+        "timezone": 0
+    },
+    {
+        "country_code": "SG",
+        "capital": "Singapore",
+        "timezone": 8
+    },
+    {
+        "country_code": "SK",
+        "capital": "Bratislava",
+        "timezone": 2
+    },
+    {
+        "country_code": "SI",
+        "capital": "Ljubljana",
+        "timezone": 2
+    },
+    {
+        "country_code": "SB",
+        "capital": "Honiara",
+        "timezone": 11
+    },
+    {
+        "country_code": "SO",
+        "capital": "Mogadishu",
+        "timezone": 3
+    },
+    {
+        "country_code": "ZA",
+        "capital": "Pretoria",
+        "timezone": 2
+    },
+    {
+        "country_code": "SS",
+        "capital": "Juba",
+        "timezone": 3
+    },
+    {
+        "country_code": "ES",
+        "capital": "Madrid",
+        "timezone": 2
+    },
+    {
+        "country_code": "LK",
+        "capital": "Sri Jayawardenepura Kotte",
+        "timezone": 5.5
+    },
+    {
+        "country_code": "SD",
+        "capital": "Khartoum",
+        "timezone": 2
+    },
+    {
+        "country_code": "SR",
+        "capital": "Paramaribo",
+        "timezone": -3
+    },
+    {
+        "country_code": "SE",
+        "capital": "Stockholm",
+        "timezone": 2
+    },
+    {
+        "country_code": "CH",
+        "capital": "Bern",
+        "timezone": 2
+    },
+    {
+        "country_code": "SY",
+        "capital": "Damascus",
+        "timezone": 3
+    },
+    {
+        "country_code": "TW",
+        "capital": "Taipei",
+        "timezone": 8
+    },
+    {
+        "country_code": "TJ",
+        "capital": "Dushanbe",
+        "timezone": 5
+    },
+    {
+        "country_code": "TZ",
+        "capital": "Dodoma",
+        "timezone": 3
+    },
+    {
+        "country_code": "TH",
+        "capital": "Bangkok",
+        "timezone": 7
+    },
+    {
+        "country_code": "TL",
+        "capital": "Dili",
+        "timezone": 9
+    },
+    {
+        "country_code": "TG",
+        "capital": "Lomé",
+        "timezone": 0
+    },
+    {
+        "country_code": "TO",
+        "capital": "Nukuʻalofa",
+        "timezone": 13
+    },
+    {
+        "country_code": "TT",
+        "capital": "Port of Spain",
+        "timezone": -4
+    },
+    {
+        "country_code": "TN",
+        "capital": "Tunis",
+        "timezone": 1
+    },
+    {
+        "country_code": "TR",
+        "capital": "Ankara",
+        "timezone": 3
+    },
+    {
+        "country_code": "TM",
+        "capital": "Ashgabat",
+        "timezone": 5
+    },
+    {
+        "country_code": "TV",
+        "capital": "Funafuti",
+        "timezone": 12
+    },
+    {
+        "country_code": "UG",
+        "capital": "Kampala",
+        "timezone": 3
+    },
+    {
+        "country_code": "UA",
+        "capital": "Kyiv",
+        "timezone": 3
+    },
+    {
+        "country_code": "AE",
+        "capital": "Abu Dhabi",
+        "timezone": 4
+    },
+    {
+        "country_code": "GB",
+        "capital": "London",
+        "timezone": 1
+    },
+    {
+        "country_code": "US",
+        "capital": "Washington, D.C.",
+        "timezone": -4
+    },
+    {
+        "country_code": "UY",
+        "capital": "Montevideo",
+        "timezone": -3
+    },
+    {
+        "country_code": "UZ",
+        "capital": "Tashkent",
+        "timezone": 5
+    },
+    {
+        "country_code": "VU",
+        "capital": "Port Vila",
+        "timezone": 11
+    },
+    {
+        "country_code": "VA",
+        "capital": "Vatican City",
+        "timezone": 2
+    },
+    {
+        "country_code": "VE",
+        "capital": "Caracas",
+        "timezone": -4
+    },
+    {
+        "country_code": "VN",
+        "capital": "Hanoi",
+        "timezone": 7
+    },
+    {
+        "country_code": "YE",
+        "capital": "Sana'a",
+        "timezone": 3
+    },
+    {
+        "country_code": "ZM",
+        "capital": "Lusaka",
+        "timezone": 2
+    },
+    {
+        "country_code": "ZW",
+        "capital": "Harare",
+        "timezone": 2
+    }
+]

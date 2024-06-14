@@ -30,7 +30,6 @@ export class DetailsComponent implements OnInit {
     private search: SearchCityService) { }
 
   ngOnInit(): void {
-    this.getDetails('itaoca');
 
     this.search.currentCityName.subscribe(cityname => {
       if (cityname) this.getDetails(cityname);
@@ -47,8 +46,7 @@ export class DetailsComponent implements OnInit {
           d.sys.sunrise = this.getUnixTime(res.sys.sunrise),
           d.sys.sunset = this.getUnixTime(res.sys.sunset),
           d.visibility = res.visibility / 100 // for use percent (%)
-      },
-      error: (err) => { console.log(alert('Not Found')) }
+      }
     });
   }
 

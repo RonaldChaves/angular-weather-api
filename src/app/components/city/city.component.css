@@ -32,14 +32,15 @@
     color: #fff;
 }
 
-.lat-lon-data {
-    gap: 2rem;
+.capital-container {
+    gap: 1rem;
 }
 
-.lat-lon-data h2 {
-    margin: 0.4rem;
+.capital-container h2 {
+    font-size: 2rem;
 }
 
-.lat-lon-data span {
-    font-size: 1.2rem;
+.capital {
+    padding: 0 1rem;
+    border-right: 1px solid #000;
 }

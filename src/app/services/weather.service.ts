@@ -25,7 +25,7 @@ export class WeatherService {
   //Function to return a API_URL with a 'cityData' to params anda 'apiKey' integreted
   getWeatherData(cityData: string, language: string | any): Observable<WeatherData> {
 
-    this.search.currentLangauge.subscribe(lang => {
+    this.search.currentLanguage.subscribe(lang => {
       if (!lang) {
         language = 'pt_br';
       }

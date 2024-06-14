@@ -10,12 +10,16 @@ import { PressureData } from '../../models/pressureData';
 })
 export class PressureComponent implements OnInit {
 
-  inWork: boolean = true;
+  inWorkPressure: boolean = true;
 
   pressure: PressureData = {
     main: {
       sea_level: 0,
       grnd_level: 0
+    },
+    coord: {
+      lon: 0,
+      lat: 0
     }
   }
 
@@ -24,8 +28,7 @@ export class PressureComponent implements OnInit {
     private search: SearchCityService) { }
 
   ngOnInit(): void {
-    this.getPressure('itaoca');
-
+    
     this.search.currentCityName.subscribe(cityName => {
       if (cityName) this.getPressure(cityName)
     });
@@ -34,17 +37,20 @@ export class PressureComponent implements OnInit {
   getPressure(cityName: string) {
     this.service.getWeatherData(cityName, 'pt_br').subscribe({
       next: (res) => {
+        this.inWorkPressure = true;
+        
         if (res.main.sea_level &&
           res.main.grnd_level) {
           this.pressure.main.sea_level = res.main.sea_level,
             this.pressure.main.grnd_level = res.main.grnd_level
         }
         else {
-          this.inWork = false;
+          this.inWorkPressure = false;
         }
 
-      },
-      error: (err) => alert('Not found')
+        this.pressure.coord.lat = res.coord.lat,
+        this.pressure.coord.lon = res.coord.lon
+      }
     });
   }
 }
