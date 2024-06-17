@@ -44,3 +44,62 @@
     padding: 0 1rem;
     border-right: 1px solid #000;
 }
+
+@media only screen and (max-width: 768px) {
+    .city-container {
+        width: 17rem;
+        height: 250px;
+        max-height: 300px;
+    }
+
+    .city-name {
+        font-size: 2.4rem;
+    }
+
+    .city-badge {
+        width: 90%;
+    }
+
+    .country-name,
+    .country-code {
+        font-size: 1.6rem;
+    }
+
+    .country-data {
+        margin: 1rem;
+    }
+
+    .capital-container h2 {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .city-container {
+        width: 20rem;
+        height: 22rem;
+        max-height: 27rem;
+    }
+
+    .country-data {
+        margin: 0;
+    }
+
+    .capital-container {
+        flex-direction: column;
+    }
+
+    .capital {
+        padding: 0 1rem;
+        border: none;
+        border-bottom: 1px solid #000;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .city-container {
+        width: 17rem;
+        max-width: 17rem;
+    }
+}

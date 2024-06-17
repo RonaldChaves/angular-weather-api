@@ -17,3 +17,41 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1rem;
 }
+
+@media only screen and (max-width: 425px) {
+
+    .content {
+        margin: 0.4rem;
+    }
+
+    .content,
+    .city-temp,
+    .details-wind-pressure {
+        width: 22rem;
+    }
+
+    .city-temp,
+    .details-wind-pressure {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        row-gap: 1rem;
+        column-gap: 1rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .content,
+    .city-temp,
+    .details-wind-pressure {
+        width: 16rem;
+        max-width: 16rem;
+    }
+
+    .content {
+        justify-content: none;
+        align-items: none;
+        margin: 0;
+    }
+
+}

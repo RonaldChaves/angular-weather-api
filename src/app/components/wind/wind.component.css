@@ -24,3 +24,58 @@ i {
 span {
     font-size: 2.5rem;
 }
+
+
+@media screen and (max-width: 768px) {
+    .wind-container {
+        flex-direction: column;
+        width: 10rem;
+        max-width: 20rem;
+        height: 250px;
+        max-height: 300px;
+    }
+
+    .wind-container h2 {
+        font-size: 1.6rem;
+    }
+
+    .wind-container div {
+        gap: 0.4rem;
+    }
+
+    i {
+        font-size: 1.2rem;
+    }
+
+    span {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .wind-container {
+        flex-direction: column;
+        width: 20rem;
+        height: 10rem;
+        max-width: 20rem;
+    }
+
+    .wind-container h2 {
+        font-size: 2.6rem;
+    }
+
+    i {
+        font-size: 1.8rem;
+    }
+
+    span {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .wind-container {
+        width: 17rem;
+        max-width: 17rem;
+    }
+}

@@ -10,7 +10,7 @@ import { WeatherService } from '../../services/weather.service';
 export class ContentComponent implements OnInit {
 
   notFound: boolean = true;
-  welcome: boolean = true;
+  welcome: boolean = false;
 
   constructor(
     private search: SearchCityService,

@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     height: 250px;
     max-height: 300px;
+    width: 100%;
     max-width: 100%;
     gap: 3rem;
 
@@ -33,4 +34,62 @@
 
 .max-min {
     gap: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .temperature {
+        width: 23rem;
+        height: 250px;
+        max-height: 300px;
+        gap: 0.5rem;
+    }
+
+    .temp-now {
+        font-size: 3rem;
+    }
+
+    .weather-desc {
+        font-size: 1rem;
+    }
+
+    .right span {
+        font-size: 0.8rem;
+    }
+
+    .right h2 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .temperature {
+        flex-direction: column;
+        width: 20rem;
+        height: 26rem;
+        max-height: 100%;
+        gap: 0.5rem;
+    }
+
+    .temp-now {
+        font-size: 4rem;
+    }
+
+    .weather-desc {
+        font-size: 1.4rem;
+    }
+
+    .right span {
+        font-size: 1rem;
+    }
+
+    .right h2 {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .temperature {
+        width: 17rem;
+        max-width: 17rem;
+    }
 }

@@ -60,3 +60,21 @@ p {
     border-radius: 0.2rem;
     backdrop-filter: blur(10px);
 }
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    body {
+        height: 100%;
+    }
+
+    .component {
+        width: 20rem;
+        max-width: 20rem;
+    }
+}

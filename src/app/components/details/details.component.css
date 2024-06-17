@@ -30,3 +30,48 @@ i {
     font-size: 1.6rem;
     margin: 0.4rem;
 }
+
+
+@media screen and (max-width: 768px) {
+    .details {
+        width: 17rem;
+        height: 250px;
+        max-height: 300px;
+    }
+
+    .details span {
+        font-size: 0.6rem;
+    }
+
+    .details h2 {
+        font-size: 1.2rem;
+    }
+
+    .timezone {
+        font-size: 0.5rem !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .details {
+        width: 20rem;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .details span {
+        font-size: 0.8rem;
+    }
+
+    .details h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .details {
+        width: 17rem;
+        max-width: 17rem;
+    }
+}
