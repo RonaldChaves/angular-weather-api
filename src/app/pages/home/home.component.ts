@@ -17,7 +17,8 @@ export class HomeComponent implements OnInit {
   language: string = '';
   badgeURL: string = '';
 
-  constructor(private search: SearchCityService) { }
+  constructor(
+    private search: SearchCityService) { }
 
   ngOnInit(): void {
     this.returnSiglas();

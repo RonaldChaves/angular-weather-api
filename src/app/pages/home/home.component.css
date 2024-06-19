@@ -77,6 +77,22 @@ option {
     border-radius: 50%;
 }
 
+@media only screen and (max-width: 1024px) {
+
+    .site-name,
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .search-input {
+        width: 18rem;
+    }
+
+    .lang-container {
+        flex-direction: column;
+    }
+}
+
 @media only screen and (max-width: 768px) {
 
     .site-name,

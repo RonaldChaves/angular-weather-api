@@ -1,0 +1,74 @@
+[
+    {
+        "code": "01d",
+        "path": "../assets/img/dia-ceulimpo.png"
+    },
+    {
+        "code": "01n",
+        "path": "../assets/img/noite-ceulimpo.png"
+    },
+    {
+        "code": "02d",
+        "path": "../assets/img/dia-poucasnuvens.png"
+    },
+    {
+        "code": "02n",
+        "path": "../assets/img/noite-poucasnuvens.png"
+    },
+    {
+        "code": "03d",
+        "path": "../assets/img/dia-nuvensdispersas.png"
+    },
+    {
+        "code": "03n",
+        "path": "../assets/img/noite-nuvensdispersas.png"
+    },
+    {
+        "code": "04d",
+        "path": "../assets/img/dia-nuvensquebradas.png"
+    },
+    {
+        "code": "04n",
+        "path": "../assets/img/noite-nuvensquebradas.png"
+    },
+    {
+        "code": "09d",
+        "path": "../assets/img/dia-chuvadebanho.png"
+    },
+    {
+        "code": "09n",
+        "path": "../assets/img/noite-chuvadebanho.png"
+    },
+    {
+        "code": "10d",
+        "path": "../assets/img/dia-chuva.png"
+    },
+    {
+        "code": "10n",
+        "path": "../assets/img/noite-chuva.png"
+    },
+    {
+        "code": "11d",
+        "path": "../assets/img/dia-tempestade.png"
+    },
+    {
+        "code": "11n",
+        "path": "../assets/img/noite-tempestade.png"
+    },
+    {
+        "code": "13d",
+        "path": "../assets/img/dia-neve.png"
+    },
+    {
+        "code": "13n",
+        "path": "../assets/img/noite-neve.png"
+    },
+    {
+        "code": "50d",
+        "path": "../assets/img/dia-nevoa.png"
+    },
+    {
+        "code": "50n",
+        "path": "../assets/img/noite-nevoa.png"
+    }
+]

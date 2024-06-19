@@ -1,9 +1,11 @@
-<router-outlet />
-<nav>
-    <app-home></app-home>
-</nav>
-<main class="flex-column center">
+<section [style.background]="background">
+    <router-outlet />
+    <nav>
+        <app-home></app-home>
+    </nav>
+    <main class="content flex-column center">
 
-    <app-content></app-content>
+        <app-content></app-content>
 
-</main>
+    </main>
+</section>

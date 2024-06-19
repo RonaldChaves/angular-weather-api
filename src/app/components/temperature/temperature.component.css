@@ -6,7 +6,7 @@
     height: 250px;
     max-height: 300px;
     width: 100%;
-    max-width: 100%;
+    max-width: 69rem;
     gap: 3rem;
 
 }
@@ -34,6 +34,31 @@
 
 .max-min {
     gap: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .temperature {
+        width: 34rem;
+        height: 190px;
+        max-height: 220px;
+        gap: 0.5rem;
+    }
+
+    .temp-now {
+        font-size: 4rem;
+    }
+
+    .weather-desc {
+        font-size: 1.6rem;
+    }
+
+    .right span {
+        font-size: 1rem;
+    }
+
+    .right h2 {
+        font-size: 1.2rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -87,7 +112,7 @@
     }
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
     .temperature {
         width: 17rem;
         max-width: 17rem;

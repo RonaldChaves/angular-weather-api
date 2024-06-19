@@ -25,6 +25,28 @@ span {
     text-align: center;
 }
 
+@media only screen and (max-width: 1024px) {
+    .pressure {
+        width: 15rem;
+        max-width: 20rem;
+        height: 190px;
+        max-height: 220px;
+    }
+
+    .pressure div {
+        gap: 0.5rem;
+    }
+
+    span {
+        font-size: 1rem;
+    }
+
+    .pressure h2 {
+        font-size: 1.6rem;
+        margin: 0.2rem;
+    }
+
+}
 
 @media only screen and (max-width: 768px) {
     .pressure {

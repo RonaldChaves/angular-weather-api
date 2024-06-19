@@ -31,6 +31,25 @@ i {
     margin: 0.4rem;
 }
 
+@media screen and (max-width: 1024px) {
+    .details {
+        width: 17rem;
+        height: 190px;
+        max-height: 220px;
+    }
+
+    .details span {
+        font-size: 0.6rem;
+    }
+
+    .details h2 {
+        font-size: 1.2rem;
+    }
+
+    .timezone {
+        font-size: 0.5rem !important;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .details {

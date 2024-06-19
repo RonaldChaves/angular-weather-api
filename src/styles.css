@@ -35,10 +35,15 @@ h3 {
 span,
 p {
     font-family: "Hind", sans-serif;
-    color: #282a29;
+    color: coral;
+
     font-weight: bold;
+    filter: brightness(1.5);
 }
 
+i {
+    color: coral;
+}
 
 .flex-row {
     display: flex;
@@ -58,7 +63,7 @@ p {
 .component {
     border: 2px solid #fff;
     border-radius: 0.2rem;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(120px);
 }
 
 
@@ -76,5 +81,11 @@ p {
     .component {
         width: 20rem;
         max-width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .component {
+        width: 15rem;
     }
 }

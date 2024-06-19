@@ -45,6 +45,44 @@
     border-right: 1px solid #000;
 }
 
+@media only screen and (max-width: 1024px) {
+    .city-container {
+        width: 17rem;
+        height: 190px;
+        max-height: 220px;
+    }
+
+    .city-name {
+        padding: 0;
+        font-size: 2.4rem;
+    }
+
+    .city-data {
+        margin: -1rem;
+        height: auto;
+    }
+
+    .city-badge {
+        padding: 0;
+        width: 90%;
+    }
+
+    .country-name,
+    .country-code {
+        font-size: 1.6rem;
+    }
+
+    .country-data {
+        padding: 0;
+    }
+
+    .capital-container h2 {
+        font-size: 1.4rem;
+    }
+
+}
+
+
 @media only screen and (max-width: 768px) {
     .city-container {
         width: 17rem;
@@ -97,7 +135,7 @@
     }
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
     .city-container {
         width: 17rem;
         max-width: 17rem;
