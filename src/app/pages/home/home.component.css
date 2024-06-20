@@ -64,9 +64,13 @@
     font-size: 1.2rem;
 }
 
+.language-choose {
+    margin-right: 0.4rem;
+}
+
 option {
     background-color: #282a29;
-    padding: 0.4rem;
+    padding: 0.6rem;
     border: none;
 }
 
@@ -75,6 +79,35 @@ option {
     background-color: #282a29;
     color: #fff;
     border-radius: 50%;
+}
+
+.fa-circle-info {
+    margin-left: 0.6rem;
+    font-size: 1.4rem;
+}
+
+.divInfo {
+    border-radius: 2rem;
+    border: 1px solid #000;
+    position: absolute;
+    padding: 0 0.6rem;
+    right: 3rem;
+    top: 3rem;
+    background-color: #fff;
+}
+
+.divInfo p {
+    font-size: 0.8rem;
+    color: #000;
+}
+
+.divInfo span {
+    font-size: 0.6rem;
+    color: #000;
+}
+
+.hidden {
+    display: none;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -90,6 +123,10 @@ option {
 
     .lang-container {
         flex-direction: column;
+    }
+
+    .fa-circle-info{
+        margin-top: 0.6rem;
     }
 }
 
@@ -107,6 +144,12 @@ option {
     .lang-container {
         flex-direction: column;
     }
+
+    .divInfo {
+        padding: 0 0.3rem;
+        top: 4rem;
+    }
+
 }
 
 @media only screen and (max-width: 425px) {
@@ -126,11 +169,38 @@ option {
     .lang-container {
         flex-direction: column;
     }
+
+    .divInfo {
+        padding: 0 0.3rem;
+        right: 5rem;
+        top: 12rem;
+    }
+
+    .divInfo p {
+        font-size: 0.6rem;
+    }
+
+    .divInfo span {
+        font-size: 0.5rem;
+    }
 }
 
 @media only screen and (max-width: 320px) {
     .search-input {
         width: 13rem;
         max-width: 17rem;
+    }
+
+    .divInfo {
+        padding: 0 0.3rem;
+        top: 12rem;
+    }
+
+    .divInfo p {
+        font-size: 0.6rem;
+    }
+
+    .divInfo span {
+        font-size: 0.5rem;
     }
 }

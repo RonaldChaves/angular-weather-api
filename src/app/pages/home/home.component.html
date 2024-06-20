@@ -26,7 +26,7 @@
 
         <div class="languange-choose">
             <span class="lang">
-                LANG:
+                Linguagem:
             </span>
             <span class="lang-brand">
                 {{ countryCompleteName }}
@@ -44,7 +44,15 @@
             <button class="btn-change-lang" (click)="getLanguageSearched()">
                 <i class="fa-solid fa-arrows-rotate"></i></button>
 
-
+        </div>
+        <i class="fa-solid fa-circle-info" (click)="info()"></i>
+        <div class="divInfo hidden flex-column center">
+            <p>
+                Códigos das respectívas linguagem disponíveis!
+            </p>
+            <span>
+                Ex: pt_br = Português Brasil
+            </span>
         </div>
     </div>
 

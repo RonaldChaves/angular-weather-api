@@ -31,6 +31,28 @@ i {
     margin: 0.4rem;
 }
 
+.fa-circle-info {
+    margin-left: 0.6rem;
+    font-size: 1rem;
+}
+
+.info {
+    border-radius: 2rem;
+    border: 1px solid #000;
+    position: absolute;
+    padding: 0 0.6rem;
+    background-color: #fff;
+}
+
+.info p {
+    font-size: 0.8rem;
+    color: #000;
+}
+
+.hide {
+    display: none;
+}
+
 @media screen and (max-width: 1024px) {
     .details {
         width: 17rem;
@@ -88,7 +110,7 @@ i {
     }
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
     .details {
         width: 17rem;
         max-width: 17rem;

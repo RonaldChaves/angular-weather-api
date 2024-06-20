@@ -49,7 +49,7 @@
             <h2 class="sunrise">
                 {{ details.sys.sunrise }}
             </h2>
-            <span class="timezone">
+            <span class="timezone flex-row center">
                 BRT (UTC-3)
             </span>
 
@@ -62,8 +62,14 @@
             <h2 class="sunset">
                 {{ details.sys.sunset }}
             </h2>
-            <span class="timezone">
+            <span class="timezone flex-row center">
                 BRT (UTC-3)
+                <i class="fa-solid fa-circle-info" (click)="clickInfo()"></i>
+                <div class="info hide flex-column center">
+                    <p>
+                        Fuso horário do Brasil
+                    </p>
+                </div>
             </span>
         </div>
 

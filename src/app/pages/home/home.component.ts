@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, input } from '@angular/core';
 import { SearchCityService } from '../../services/search-city.service';
 
 import lang_list from '../../../assets/data/lang.json'
@@ -61,6 +61,16 @@ export class HomeComponent implements OnInit {
     if (selectedLang) {
       this.countryCompleteName = selectedLang.country;
     }
+  }
+
+  info() {
+    const divInfo = document.querySelector('.divInfo');
+    divInfo?.classList.remove('hidden');
+
+    setTimeout(() => {
+      divInfo?.classList.add('hidden');
+    }, 3500)
+
   }
 
 }

@@ -10,7 +10,7 @@ import { SearchCityService } from '../../services/search-city.service';
   styleUrl: './details.component.css'
 })
 export class DetailsComponent implements OnInit {
- 
+
   details: DetailsData = {
     visibility: 0,
     clouds: {
@@ -60,5 +60,15 @@ export class DetailsComponent implements OnInit {
     var formattedTime: number | string = hours + ':' + minutes.substring(-2) + ':' + seconds.substring(-2) + 'h';
 
     return formattedTime;
+  }
+
+  clickInfo() {
+    const info = document.querySelector('.info');
+    info?.classList.remove('hide');
+
+    setTimeout(() => {
+      info?.classList.add('hide');
+    }, 3500)
+
   }
 }
